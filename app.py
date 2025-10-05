@@ -112,7 +112,7 @@ def mock_predict_image(uploaded_file):
 
 def app():
     """Renders the Streamlit application."""
-    st.title("Comprehensive Oral Cancer Screening Tool 🗣️")
+    st.title("Oral Cancer Screening Tool 🗣️***Developed by vishal***")
     st.markdown("""
     This integrated tool combines lifestyle and symptom risk assessment with a preliminary image analysis.
     **Disclaimer:** This is an informational tool and cannot replace a professional medical diagnosis.
@@ -236,3 +236,4 @@ def app():
 # Run the app function
 if __name__ == "__main__":
     app()
+
